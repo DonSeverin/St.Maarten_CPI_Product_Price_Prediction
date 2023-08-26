@@ -1,0 +1,74 @@
+To Do
+
+- Outlier Ddetection (neede for S&N) - Done
+- Tune Regressors - Done
+
+- Predict years: 2015,2016, 2017
+- Validate Regressors with Mean Squared Error (MSE), R-squared (R2) Score
+- Visulize Validations 
+
+- Prep-Paper
+
+
+
+STANDARD SCALER
+
+Ridge Regression Notes
+
+Adding scaling to ridge regression seeminly boosts performance
+
+1. before scalling 
+LinearSVR Trainig Score: 0.996590
+Ridge Regression Test Score: 0.904431
+
+
+After Scaling
+LinearSVR Trainig Score: 0.991632
+Ridge Regression Test Score: 0.928549
+
+
+
+Lasso regression Notes
+
+before Scaling
+lr Trainig Score: 0.995642
+lr Test Score: 0.963317
+
+After Scaling
+
+lr Trainig Score: 0.993775
+lr Test Score: 0.962796
+
+
+
+
+The more you move to the left the smaaller you get the more to the right the larger 
+
+
+-10| -9 | -8| -7| -6| -5| -4 | -3 | -2| -1 | 0  |  1 | 2 |  3  | 4| 5| 6| 7 | 8 | 9| 10
+
+
+ If the test statistic is more negative than 
+ the critical value, you can reject the null hypothesis 
+ and conclude that the time series is stationary.
+
+ example = -3 < -1
+
+ If the test statistic is less negative than 
+ the critical value, you cannot reject the null hypothesis 
+ and conclude that the time series has a unit root.
+
+ example =
+
+
+
+  If the p-value is less than the significance(0.05) level, you can reject 
+  the null hypothesis and conclude that the time series is stationary. 
+  
+  example =
+
+
+  If the p-value is greater than the significance level, you cannot reject 
+  the null hypothesis and conclude that the time series has a unit root.
+
+   example =
